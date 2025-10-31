@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('common/header'); %>
+
+
+
+<body>
+    <div class = 'content'>
+
+        <h1>
+            Welcome to the Course Dashboard
+        </h1>
+        <div class = 'items'>
+            <section class = single_item>
+                <h2>
+                    Total Courses
+                </h2>
+                <p> <%= totalCourses %> </p>
+            </section>
+
+            <section class = single_item>
+                <h2>
+                    Total Enrollments
+                </h2>
+                <p> <%= totalEnrolments %> </p>
+            </section>
+
+            <section class = single_item>
+                <h2>
+                    Average Enrollments
+                </h2>
+                <p> <%= averageEnrolment %> </p>
+            </section>
+
+            <section class = single_item>
+                <h2>
+                    Highest Enrollments
+                </h2>
+                <p> <%= highestEnrolment %> </p>
+            </section>
+
+            <section class = single_item>
+                <h2>
+                    Lowest Enrollments
+                </h2>
+                <p> <%= lowestEnrolment %> </p>
+            </section>
+
+        </div>
+
+    </div>
+
+
+</body>

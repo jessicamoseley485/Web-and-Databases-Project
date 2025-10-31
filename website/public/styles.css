@@ -1,0 +1,90 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}   
+
+header {
+    background-color: rgb(179, 175, 175);
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+header li {
+    padding: 0 15px;
+    list-style: none;
+}
+
+.content {
+    background-color: white;
+    text-align: center;
+}
+
+h1{
+    padding-top: 20px;
+    text-align:center;
+}
+
+.coursesTable table {
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+.coursesTable td {
+    padding: 8px;
+}
+
+.coursesTable th {
+    background-color: rgb(80, 146, 71);
+    padding: 10px;
+    color: white;
+    text-align: left;
+}
+
+.coursesTable tr{
+    border-bottom: solid 1px rgb(158, 157, 157);
+}
+
+.coursesTable tr:hover {
+    background-color: rgb(201, 194, 194);
+}
+
+.create_form {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .singleBox {
+    padding-bottom: 10px;
+  }
+
+  .cta-button {
+    background-color: rgb(80, 146, 71);
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    color: white;
+  }
+
+  .edit_form {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  h2 {
+    padding-top: 10px;
+    text-align:center;
+  }
+
+  .single_item {
+    margin-top: 10px;
+  }

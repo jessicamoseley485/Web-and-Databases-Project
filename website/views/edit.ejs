@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('common/header'); %>
+
+<body>
+    <h1>
+        Edit Course
+    </h1>
+
+    <h2>
+        <%= message %>
+    </h2>
+
+    <form method="post" class="edit_form">
+        <section class = "singleBox">
+            <label for="Crs_Title"> Course Title: </label> <br>
+            <input type = "text" value = "<%= course.Crs_Title %>", name = "Crs_Title" required> <br>
+        </section>
+        <section class = "singleBox">
+            <label for="Crs_Enrollment"> Course Enrollment: </label> <br>
+            <input type = "int" value = "<%= course.Crs_Enrollment %>", name = "Crs_Enrollment" required> <br>
+        </section>
+        <input class= "cta-button" type = "Submit" value = "Update Course"> <br>
+    </form>
+</body>
